@@ -1,0 +1,186 @@
+﻿@model Travel.Models.TravelSummary
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+
+<h4>Traveller Details</h4>
+<hr />
+
+<div class="row">
+    @*details of specific Traveler*@
+    <div class="col-3">
+        <div class="card">
+            <h4 class="card-header">@Html.DisplayFor(model => model.EmpName)</h4>
+            <img src="@Html.DisplayFor(model => model.Image)" class="card-img-top" alt="Card image" style="width:100%; height:200px;" />
+            <div class="card-body">
+
+                <table id="table_boder">
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.EmpCode)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.EmpCode)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.Department)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Department)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.FromDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.FromDate)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.ToDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.ToDate)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.FromDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.FromDate)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.Subject)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Subject)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Description)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayNameFor(model => model.EstiBud)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.EstiBud)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <a class="btn btn-success mt-4 btn-sm" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+        <a class="btn btn-info mt-4 btn-sm" asp-action="Index">Back to List</a>
+    </div>
+
+    @*list of Itineanary of specific students*@
+    <div class="col-9">
+        <table class="stable table-striped table-bordered" id="Datatbl">
+            <thead>
+                <tr>
+                    <th>
+                        Date
+                    </th>
+
+                    <th>
+                        Time
+                    </th>
+                    <th>
+                        Hotel
+                    </th>
+                    <th>
+                        Location
+                    </th>
+                    <th>
+                        Task
+                    </th>
+
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Estimated Budget
+                    </th>
+                    <th>
+                        From Date
+                    </th>
+                    <th>
+                        To Date
+                    </th>
+                    <th>
+                        Hotel Image
+                    </th>
+                    <th>
+
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.TravelItinenaryDetail)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Time)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Hotel)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Location)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Task)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EstimatedBudget)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FromDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ToDate)
+                        </td>
+                        <td>
+                            <img src="@item.HotelPhoto" width="100" height="100"/>
+                        </td>
+
+                        <td>
+                            <a class="btn btn-outline-primary btn-sm" onclick="editConfirm(@item.Id)">Edit</a>
+                            <a class="btn btn-outline-danger btn-sm" onclick="delConfirm(@item.Id)">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+</div>

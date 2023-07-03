@@ -1,0 +1,124 @@
+﻿@model Travel.Models.TravelSummary
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TravelSummary</h4>
+<hr />
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EmpName" class="control-label"></label>
+                <input asp-for="EmpName" class="form-control" />
+                <span asp-validation-for="EmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpCode" class="control-label"></label>
+                <input asp-for="EmpCode" class="form-control" />
+                <span asp-validation-for="EmpCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <input asp-for="Department" class="form-control" />
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FromDate" class="control-label"></label>
+                <input asp-for="FromDate" class="form-control" />
+                <span asp-validation-for="FromDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ToDate" class="control-label"></label>
+                <input asp-for="ToDate" class="form-control" />
+                <span asp-validation-for="ToDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label"></label>
+                <input asp-for="Subject" class="form-control" />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstiBud" class="control-label"></label>
+                <input asp-for="EstiBud" class="form-control" />
+                <span asp-validation-for="EstiBud" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" type="file" name="Picture" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-8" id="Itinenary_Details_View">
+        <section class="ChildItems">
+            <div class="lineItemGroup">
+                <table class="table table-striped jsAddRemRows">
+                    <thead>
+                        <tr>
+                            <th width="50px"><a href="#" class="addRow btn btn-success btn-sm" id="addItinenaryItem"> <span class="fas fa-plus"></span></a></th>
+                            <th>Date</th>
+                            <th>Hotel</th>
+                            <th>Location</th>
+                            <th>Task</th>
+                            <th>Description</th>
+                            <th>Estimated Budget</th>
+                            <th>From Date</th>
+                            <th>To Date</th>
+                            <th>Hotel Photo</th>
+                            <th>Employee</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lineItemGroup">
+
+                        @Html.Partial("~/Views/TravelItinenaryDetail/ItinenaryDetailsList.cshtml")
+
+
+
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<template id="masterCopyITinenary">
+
+    @Html.Partial("~/Views/TravelItinenaryDetail/ItinenaryDetailsList.cshtml")
+</template>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+    <script>
+        $(document).ready(function() {
+
+            $("#addItinenaryItem").click(function() {
+                var content = $("#masterCopyITinenary").html();
+                $(content).appendTo("#lineItemGroup");
+            });
+
+        });
+
+    </script>
+    }

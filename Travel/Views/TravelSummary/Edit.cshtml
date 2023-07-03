@@ -1,0 +1,217 @@
+﻿@model Travel.Models.TravelSummary
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<script src="jquery-3.6.0.min.js"></script>
+<h4>TravelSummary</h4>
+<hr />
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Image" name="Picture" />
+            <input id="itinenary_Id" type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="CreatedName" />
+            <div class="form-group">
+                <label asp-for="EmpName" class="control-label"></label>
+                <input asp-for="EmpName" class="form-control" />
+                <span asp-validation-for="EmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmpCode" class="control-label"></label>
+                <input asp-for="EmpCode" class="form-control" />
+                <span asp-validation-for="EmpCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <input asp-for="Department" class="form-control" />
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FromDate" class="control-label"></label>
+                <input asp-for="FromDate" class="form-control" />
+                <span asp-validation-for="FromDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ToDate" class="control-label"></label>
+                <input asp-for="ToDate" class="form-control" />
+                <span asp-validation-for="ToDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label"></label>
+                <input asp-for="Subject" class="form-control" />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstiBud" class="control-label"></label>
+                <input asp-for="EstiBud" class="form-control" />
+                <span asp-validation-for="EstiBud" class="text-danger"></span>
+            </div>
+            <div>
+                <img src="@Model.Image" width="200" height="200" /><br />
+                <label class="control-label">Update Image</label>
+                <input id="File" type="file" asp-for="Image" name="Picture" class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <input id="EmpId" type="hidden" value="@Model.Id" />
+        </div>
+        <div class="col-md-8" id="Itinenary_Details_View">
+            <section class="ChildItems">
+                <div class="lineItemGroup">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><a href="#" class="addRow btn btn-success btn-sm" id="addItinenaryItem"><span class="fas fa-plus"></span></a></th>
+                                <th><a href="#" class="delRows btn btn-danger btn-md" id="delItinenaryItems"></a></th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Hotel</th>
+                                <th>Location</th>
+                                <th>Task</th>
+                                <th>Description</th>
+                                <th>Estimated Budget</th>
+                                <th>From Date</th>
+                                <th>To Date</th>
+                                <th>Hotel Photo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.TravelItinenaryDetail)
+                            {
+                                string key = "oldRec_" + item.Id;
+                                <tr id="detailsRow">
+                                    <td>
+                                        <a class="btn btn-danger removeRow" href="#">- remove</a>
+                                        <input type="checkbox" id="@key" value="@item.Id" />
+                                        <input type="hidden" value="@item.Id"/>
+                                        <input type="hidden" name="TravelItinenaryDetail.index" value="@key">
+
+                                        <input type="text" id="empIdFromRow" value="@item.Id" name="TravelItinenaryDetail[@key].Id">
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Date" value="@item.Date" />
+
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Time" value="@item.Time" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Hotel" value="@item.Hotel" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Location" value="@item.Location" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Task" value="@item.Task" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].Description" value="@item.Description" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].EstimatedBudget" value="@item.EstimatedBudget" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].FromDate" value="@item.FromDate" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="TravelItinenaryDetail[@key].ToDate" value="@item.ToDate" />
+                                    </td>
+                                    <td>
+                                        <img src="@item.HotelPhoto" width="100" height="100" />
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        </thead>
+                        <tbody id="lineItemGroup">
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <template id="masterCopyITinenary">
+        <tr>
+
+            <td>
+                <a class="btn btn-danger removeRow" href="#">- remove</a>
+                <input type="hidden" name="TravelItinenaryDetail.index" value="--XX--" />
+            </td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].Date" value="2022-06-29" /></td>
+            <td>
+                <input type="text" name="TravelItinenaryDetail[--XX--].Time" value="12:00" />
+                <input type="text" name="TravelItinenaryDetail[--XX--].Hotel" value="IJK Hotel" />
+            </td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].Location" value="IJK Location" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].Task" value="IJK Task" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].Description" value="IJK Description" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].EstimatedBudget" value="500" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].FromDate" value="2022-06-01" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].ToDate" value="2022-07-01" /></td>
+            <td><input type="file" name="TravelItinenaryDetail[--XX--].HotelPhoto" value="N/A" /></td>
+            <td><input type="text" name="TravelItinenaryDetail[--XX--].EmpolyeeId" value="" id="EmployeeId" /></td>
+        </tr>
+
+    </template>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+    <script>
+        $(document).ready(function() {
+            //count no of existing records
+            var cnt = $('#lineItemGroup tr').length;
+            var _id = $('#EmpId').val();
+
+            $("#addItinenaryItem").click(function() {
+
+
+                var content = $("#masterCopyITinenary").html();
+                //replace index and manage unique value
+                content = content.replace(/--XX--/g, 'ABC_' + (++cnt));
+                $("#EmployeeId").val(_id);
+                $(content).appendTo("#lineItemGroup");
+
+            });
+
+            $(document).on('click', '.removeRow', function(e) {
+                e.preventDefault();
+                $(this).closest('tr').remove();
+            });
+
+            $("#delItinenaryItems").click(function() {
+                $("#detailsRow td input[type=checkbox]:checked").each(function(index, val) {
+                    $(this).closest('tr').remove();
+                });
+
+
+            });
+
+        });
+
+    </script>
+}

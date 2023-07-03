@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Travel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Travel.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\css\\BootswatchMorph.css",
+      "PackagePath": "staticwebassets\\css\\BootswatchMorph.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\05f823a8-ad56-4c69-a685-8e0167bf4682.jpg",
+      "PackagePath": "staticwebassets\\images\\05f823a8-ad56-4c69-a685-8e0167bf4682.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\087c93f5-c520-4ad2-890a-e3b1242cb0d8.jpg",
+      "PackagePath": "staticwebassets\\images\\087c93f5-c520-4ad2-890a-e3b1242cb0d8.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\164044d7-8864-4aae-acf8-03101117a502.jpg",
+      "PackagePath": "staticwebassets\\images\\164044d7-8864-4aae-acf8-03101117a502.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\221ec388-c466-4c12-8eea-63adc483d679.jpg",
+      "PackagePath": "staticwebassets\\images\\221ec388-c466-4c12-8eea-63adc483d679.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\24968881-baa3-4d2c-b18b-2f3010e7b324.jpg",
+      "PackagePath": "staticwebassets\\images\\24968881-baa3-4d2c-b18b-2f3010e7b324.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\375d293b-d295-4f79-b8db-9e7942777296.jpg",
+      "PackagePath": "staticwebassets\\images\\375d293b-d295-4f79-b8db-9e7942777296.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\3a0c538f-c3df-414f-a451-bd1392fd010f.jpg",
+      "PackagePath": "staticwebassets\\images\\3a0c538f-c3df-414f-a451-bd1392fd010f.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\3b5ebcb1-6441-4a37-8602-b575759db181.jpg",
+      "PackagePath": "staticwebassets\\images\\3b5ebcb1-6441-4a37-8602-b575759db181.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\3ca36bf1-8108-4f2f-b89e-44b339833045.jpg",
+      "PackagePath": "staticwebassets\\images\\3ca36bf1-8108-4f2f-b89e-44b339833045.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\3d14ca7a-130e-4292-841c-bdf7b16baba5.jpg",
+      "PackagePath": "staticwebassets\\images\\3d14ca7a-130e-4292-841c-bdf7b16baba5.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\3e74be89-f598-40b5-87b1-163093e5d620.jpg",
+      "PackagePath": "staticwebassets\\images\\3e74be89-f598-40b5-87b1-163093e5d620.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\47cb30a8-9bfd-45eb-8ca9-b8796334f056.jpg",
+      "PackagePath": "staticwebassets\\images\\47cb30a8-9bfd-45eb-8ca9-b8796334f056.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\4bbe6a14-4285-4228-bd35-78c36008e112.jpg",
+      "PackagePath": "staticwebassets\\images\\4bbe6a14-4285-4228-bd35-78c36008e112.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\4cf4bf8f-8775-42be-8992-8b0f5905c7ca.jpg",
+      "PackagePath": "staticwebassets\\images\\4cf4bf8f-8775-42be-8992-8b0f5905c7ca.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\50a84247-8e54-4ac8-a46b-dcd144d2f43b.jpg",
+      "PackagePath": "staticwebassets\\images\\50a84247-8e54-4ac8-a46b-dcd144d2f43b.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\60fad5d5-4bcc-49a8-a512-ad52e4d800b2.jpg",
+      "PackagePath": "staticwebassets\\images\\60fad5d5-4bcc-49a8-a512-ad52e4d800b2.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\67c1d5c5-5958-4b04-8cf9-434e33abd784.jpg",
+      "PackagePath": "staticwebassets\\images\\67c1d5c5-5958-4b04-8cf9-434e33abd784.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\7d220579-80a5-4ce2-a39e-0d1be9adbbd5.jpg",
+      "PackagePath": "staticwebassets\\images\\7d220579-80a5-4ce2-a39e-0d1be9adbbd5.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\7e432688-ead4-4a2e-b747-25f1ffeeac54.jpg",
+      "PackagePath": "staticwebassets\\images\\7e432688-ead4-4a2e-b747-25f1ffeeac54.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\8673dab7-c4ca-4a3d-b3e4-16e86cd70e17.jpg",
+      "PackagePath": "staticwebassets\\images\\8673dab7-c4ca-4a3d-b3e4-16e86cd70e17.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\886c5f70-3b33-44d2-8965-94a4e11778d9.jpg",
+      "PackagePath": "staticwebassets\\images\\886c5f70-3b33-44d2-8965-94a4e11778d9.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\917d2a40-dbfa-400e-ae81-733ec677f6e3.jpg",
+      "PackagePath": "staticwebassets\\images\\917d2a40-dbfa-400e-ae81-733ec677f6e3.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\9a6fb344-49e9-4982-b2a8-99fe897f6d40.jpg",
+      "PackagePath": "staticwebassets\\images\\9a6fb344-49e9-4982-b2a8-99fe897f6d40.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\9d49eba0-217e-462b-847a-e1c47cb81db2.jpg",
+      "PackagePath": "staticwebassets\\images\\9d49eba0-217e-462b-847a-e1c47cb81db2.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\a5ead7ce-53a9-4955-9489-b7d89ad64de0.jpg",
+      "PackagePath": "staticwebassets\\images\\a5ead7ce-53a9-4955-9489-b7d89ad64de0.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\aa92949a-a555-4365-b67e-a445b74672d9.jpg",
+      "PackagePath": "staticwebassets\\images\\aa92949a-a555-4365-b67e-a445b74672d9.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\eae9a5d6-0d6c-425e-b010-204a50677269.jpg",
+      "PackagePath": "staticwebassets\\images\\eae9a5d6-0d6c-425e-b010-204a50677269.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\ef89812c-8e87-41b5-bce4-281d8350cc1e.jpg",
+      "PackagePath": "staticwebassets\\images\\ef89812c-8e87-41b5-bce4-281d8350cc1e.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\f9c42f34-1b54-45dd-a8d6-394364bbf60a.jpg",
+      "PackagePath": "staticwebassets\\images\\f9c42f34-1b54-45dd-a8d6-394364bbf60a.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\images\\fad920bc-9ac9-4235-a8cd-0a689a0565cd.jpg",
+      "PackagePath": "staticwebassets\\images\\fad920bc-9ac9-4235-a8cd-0a689a0565cd.jpg"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ANTS Internship\\Projects\\Local\\travel_mgmt_v1\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Travel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Travel.props",
+      "PackagePath": "build\\Travel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Travel.props",
+      "PackagePath": "buildMultiTargeting\\Travel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Travel.props",
+      "PackagePath": "buildTransitive\\Travel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
